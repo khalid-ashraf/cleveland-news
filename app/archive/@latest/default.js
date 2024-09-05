@@ -1,3 +1,13 @@
+import { NewsList } from "@/components";
+import { getLatestNews } from "@/lib/news";
+
 export default function LatestNewsPage() {
-  return <h1>Latest News Page</h1>;
+  const latestNews = getLatestNews();
+
+  return (
+    <>
+      <h2>Latest News Page</h2>
+      <NewsList news={latestNews} />
+    </>
+  );
 }
