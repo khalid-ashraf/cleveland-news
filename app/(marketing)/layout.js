@@ -1,6 +1,6 @@
 export const metadata = {
-  title: "Next.js Page Routing & Rendering",
-  description: "Learn how to route to different pages.",
+  title: "Cleveland News",
+  description: "Everything that happens in Cleveland",
 };
 
 export default function MarketingLayout({ children }) {
